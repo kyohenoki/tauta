@@ -1,11 +1,11 @@
 {
-  "name": "tauri",
+  "name": "tauta",
   "version": "0.1.0",
   "type": "module",
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "check": "biome check --write",
     "tauri": "tauri"

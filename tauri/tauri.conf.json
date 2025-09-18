@@ -1,8 +1,8 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "tauri",
+  "productName": "tauta",
   "version": "0.1.0",
-  "identifier": "com.kyohenoki.tauri",
+  "identifier": "com.kyohenoki.tauta",
   "build": {
     "beforeDevCommand": "pnpm dev",
     "devUrl": "http://localhost:1420",
@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "tauri",
+        "title": "Tauta",
         "width": 800,
         "height": 600
       }
@@ -23,6 +23,7 @@
   },
   "bundle": {
     "active": true,
-    "targets": "all"
+    "targets": "all",
+    "icon": ["icons/icon.png"]
   }
 }
